@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ddd;
+  }
+  
+  .chat-container {
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #3498db;
+  }
+  
+  .user-buttons button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: #2980b9;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .user-buttons button:hover {
+    background-color: #2980b9;
+  }
+  
+  .chat {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .userUsuMessage {
+    background-color: #2980b9;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .userArioMessage {
+    background-color: #2ecc71;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .input-container {
+    display: flex;
+    padding: 10px;
+    background-color: #ecf0f1;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  .titulo {
+    color: #2ecc71;
+    font-weight:800;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
